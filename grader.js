@@ -59,7 +59,7 @@ var checkHtml = function(html, checksfile) {
 var checkHtmlUrl = function(url, checksfile, callback) {
     var handler =  function(result, response) {
         if (result instanceof Error) {
-            console.error('Error: ' + util.format(response.message));
+            console.error('Error: ' + response);
         } else {
             callback(checkHtml(result, checksfile));
         }
