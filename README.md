@@ -1,4 +1,4 @@
-bitstarter
+Magic Beans - Bitstarter
 ==========
 
 1. Build
